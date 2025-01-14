@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+const genAI = new GoogleGenerativeAI("AIzaSyCDmAduBOkXtH9tMS85lVB_mxLwHIuCdRg");
 const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash",
 });
